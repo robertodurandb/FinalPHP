@@ -1,0 +1,133 @@
+ol{
+	list-style-type: none;
+	margin: 0;
+	padding: 0px;
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+	text-align: center;
+}
+
+li.menu{
+	float: right;
+		
+}
+li a{
+	display: block;
+	padding: 4px 6px;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+li a:link{
+	text-align: left;
+	color: black;
+}
+li a:visited{
+	background-color: darkcyan;
+	color: black;
+}
+li a:hover{
+	background-color: darkgreen;
+	color: black;
+}
+li a:active{
+	background-color: darkorange;
+	color: black;
+}
+h2.titulo{
+	text-align: center;
+	color: red;
+}
+header{
+    color: blue;
+    text-align: center;
+}
+figure{
+	border: thin #c0c0c0 solid;
+	padding: 2px;
+	margin: auto;
+	text-align: center;
+}
+figcaption{
+	background-color: rgb(112, 90, 212);
+	color: #fff;
+	font: italic smaller sans-serif;
+	/*padding: 3px;*/
+	text-align: center;
+}
+img{
+    width: 250px;
+    height: 200px;
+
+}
+
+img, img:hover{/*pseudo clase*/
+	transition: all 2s ease-in-out;
+}
+
+.Imgcomponente:hover .zoom{
+    transform: scale(2.5);
+}
+.resultadoSuma{
+    color: brown;
+    font-weight: 300;
+}
+.resultado{
+    text-align: right;
+}
+
+div.text1{
+	text-align: justify;
+	font-size: 20px;
+}
+
+/*ESTILOS LOGIN*/
+
+label{
+	font-weight: bold;
+}
+.messageError{
+	color: red;
+}
+form.login {
+	border: 3px solid #f1f1f1;
+	width: 40%;margin:auto;
+ }
+ 
+ input[type=text], input[type=password] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+ }
+ 
+ button.acceder {
+   background-color: #04AA6D;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+ }
+ 
+ button.acceder:hover {
+   opacity: 0.8;
+ }
+
+  .container {
+	padding: 16px;
+  }
+  .container1{
+	  text-align: center;
+  }
+  
+  span.f_clave {
+	float: right;
+	padding-top: 16px;
+  }
+  
